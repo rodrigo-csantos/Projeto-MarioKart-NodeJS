@@ -104,12 +104,6 @@ async function selectPlayer () {
     return {player1, player2 };
 }
 
-module.exports = {
-    MARIO,
-    LUIGI,
-    PEACH,
-    YOSHI,
-    BOWSER,
-    DK, 
+module.exports = { 
     selectPlayer
 }
